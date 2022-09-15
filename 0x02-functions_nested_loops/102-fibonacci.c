@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - entry block
- * Return : 0 (successs0
+ * Return - 0 (successs0
  */
 int main(void)
 {
