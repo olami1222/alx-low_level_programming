@@ -28,5 +28,5 @@ int main(void)
 		i = k;
 		count++;
 	}
-	return (0)
+	return (0);
 }
