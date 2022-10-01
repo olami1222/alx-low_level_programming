@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 /**
  * main - prints the multiplication of two integers
  * @argc: argument count
@@ -8,14 +8,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int night, spike;
+	int num1, num2;
 
 	if (argc == 3)
 	{
-		night = atoi(argv[1]);
-		spike = atoi(argv[2]);
-
-		printf("%d\n", night * spike);
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		printf("%d\n", num1 * num2);
 		return (0);
 	}
 	printf("Error\n");
