@@ -25,10 +25,10 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (n = 0; av[i][n]; n++)
-			{
-				str[k] = av[i][n];
-				k++;
-			}
+		{
+			str[k] = av[i][n];
+			k++;
+		}
 		if (str[k] == '\0')
 		{
 			str[k++] = '\n';
