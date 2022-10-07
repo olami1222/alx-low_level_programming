@@ -12,5 +12,6 @@ void *malloc_checked(unsigned int b)
 
 	if (spike == NULL)
 		exit(98);
-
+	
+	return (spike);
 }
