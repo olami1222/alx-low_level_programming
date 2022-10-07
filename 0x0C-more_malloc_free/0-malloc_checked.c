@@ -8,10 +8,10 @@
 void *malloc_checked(unsigned int b)
 {
 	void *spike;
+
 	spike = malloc(b);
 
 	if (spike == NULL)
 		exit(98);
-	
 	return (spike);
 }
